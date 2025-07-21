@@ -11,7 +11,7 @@ body {
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0px auto;
 
 }
@@ -64,34 +64,59 @@ body {
 .main-banner{
     display: flex;
     justify-content: center;
-    height: 350px;
-    padding: 20px 0px;
+    padding: 100px 0px;
 }
 
-.bg-blue{
-    background-color: rgb(101, 101, 255);
+
+.img-main{
     width: 70%;
     
 }
-.bg-pink{
-    background-color: rgb(243, 207, 213);
+
+.reverse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-main h1{
+    font-size: 50px;
+    padding: 30px 0;
+}
+.text-main{
     width: 30%;
+}
+
+.text-main p{
+    font-size: 20px;
+}
+
+.div-second-banner{
+    width: 100%;
     
 }
-
-.bg-green{
-    background-color: green;
-    width: 100%;
-}
-
 .second-banner{
     display: flex;
     justify-content: center;
-    height: 600px;
-    padding: 20px 0px;
+    text-align: center;
+    padding: 100px 0px;
 }
+
+#size-img-main{
+    width: 100%;
+}
+
+.div-second-banner h1{
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+#size-p{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
 main > div:nth-child(even) {
-  background-color: rgb(182, 178, 178);
+  background-color: rgb(231, 227, 227);
 }
 
 main > div:nth-child(odd) {
