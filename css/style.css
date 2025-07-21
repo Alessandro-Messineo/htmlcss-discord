@@ -126,34 +126,65 @@ main > div:nth-child(odd) {
 /* Stile footer */
 footer{
     background-color: rgb(34, 33, 33);
-    
+    height: 650px;
 }
 .footer-banner{
     display: flex;
     justify-content: center;
     height: 500px;
-    padding: 10px 0px;
+    padding: 50px 0px;
     
 }
 
-.bg-orange{
-    background-color: orange;
+.social{
     width: 30%;
+    color: rgba(111,131,197,255);
+    
 }
 
-.bg-red{
-    background-color: rgb(197, 34, 34);
+.address{
     width: calc(70%/4);
-    border: 1px solid black;
+    display: flex;
+    gap: 20px;
 }
 
 #section-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: orange;
-    height: 50px;
-    margin: 10px auto;
-    width: 80%;
+    margin: 30px auto;
+    width: 70%;
+    
+}
+
+ul{
+    list-style-type:none;
+    color: rgba(111,131,197,255);
+    margin-top: 10px;
+}
+li,a{
+    margin: 15px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.social h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#img-ita{
+    width: 30px;
+    margin-right: 2px;
+}
+
+#align-span{
+    display: flex;
+    color: white;
+}
+
+i{
+    margin: 20px 10px;
+    color: white;
 }
 
