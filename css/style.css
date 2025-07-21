@@ -17,33 +17,47 @@ body {
 }
 
 /* Stile header*/
+.container-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/jumbo.png);
+    background-size: cover; 
+    height: 550px;
+}
 
 #section-navbar{
-    background-color: orange;
-    height: 30px;
-    margin: 10px auto;
-    width: 80%;
+    padding: 40px 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
-
-
-.bg-banner{
-    background-color: blue;
+#div-link{
     display: flex;
-    justify-content: center;
-    
+    gap: 50px;
 }
 
 #header-banner{
-    background: pink;
-    width: 520px;
+    width: 50%;
     height: 220px;
     margin: 20px;
+    text-align:center;
+    align-self: center;
 }
+
+#header-banner h1{
+    color: white;
+    font-size: 50px;
+    padding: 30px;
+}
+
+#header-banner p{
+    color: white;
+    padding-bottom: 20px;
+}
+
 
 
 /* Stile main */
